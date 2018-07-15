@@ -1,13 +1,28 @@
 {
   "name": "atlas-mean-square",
   "version": "1.0.0",
-  "description": "Calculates the mean square of a set of data points.",
+  "description": "Calculates the squared quadratic mean of a set of data points.",
   "scripts": {
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",
     "test": "mocha --colors --recursive './test/**/*.test.js'"
   },
-  "main": "./src/index.js",
-  "keywords": [],
+  "main": "./src/mean-square.js",
+  "keywords": [
+    "atlassubbed",
+    "math",
+    "stats",
+    "utils",
+    "utility",
+    "arithmetic",
+    "helpers",
+    "statistics",
+    "mean",
+    "root-mean-square",
+    "rms",
+    "quadratic",
+    "quadratic-mean",
+    "square"
+  ],
   "author": "atlassubbed <atlassubbed@gmail.com>",
   "license": "Apache-2.0",
   "devDependencies": {
@@ -27,5 +42,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/atlassubbed/atlas-mean-square.git"
+  },
+  "dependencies": {
+    "atlas-dot": "^1.0.1"
   }
 }
